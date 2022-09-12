@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            img{
+                width: 80px;
+                height: 80px;
+                padding-left: 200px;
+            }
+            header a{
+                float: right;
+                padding-right: 200px;
+                font-weight: bolder;
+                padding-top: 30px;
+                text-decoration: none;
+                color: aliceblue;
+            }
+            header {
+                background-color: black;
+                height: 100px;
+            }
+            nav{
+                background-color: black;
+                height: 40px;
+                display: flex;
+            }
+            nav ul{
+                padding-left: 200px;
+            }
+            nav ul li{
+                display: inline;
+                margin: 0px 15px;
+                
+            }
+            nav ul li a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+            .food {
+                padding-top: 50px;
+                display: flex;
+                flex-direction: column;
+                padding-left: 250px;
+            }
+            .components img{
+                width: 180px;
+                height: 250px;
+                padding-left: 30px;
+            }
+            .dish{width: 1500px;
+                padding-top: 50px;
+                display: flex;
+                flex-direction: row;
+
+            }
+            .dish img{
+                width: 750px;
+                height: 500px;
+            }
+            .contact{
+                padding-top: 50px;
+                padding-left: 200px;
+            }
+            .contact td{
+                padding-top: 5px;
+                display: flex;
+                flex-direction: row;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page277/pigga/assets/imgs/navbar-brand.svg" alt="">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
+        </nav>
+        <div class="food">
+            <div class="components">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" alt="reloading..." >
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" alt="reloading...">
+                    <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" alt="reloading...">
+                    <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" alt="reloading">
+            </div>
+        </div>
+        <div class="dish">
+            <div>
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" alt="reloading...">
+                <br>
+            </div>
+            <div>
+                <h1>PIZZA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quia ab aspernatur possimus voluptatem, quos qui non optio eveniet totam cum, voluptate praesentium provident libero eligendi distinctio tenetur sapiente sunt?</p>
+                <h2>$300 </h2>
+                <button>Cart</button>
+            </div>
+        </div>
+        <div class="contact">
+            <table>
+                <h1>Place your order</h1>
+                <td><input type="text">Name</td>
+                <td><input type="email">Email</td>
+                <td><input type="text">Contact</td>
+                
+            </table>
+            <button>Submit</button>
+        </div>
+    </body>
+</html>
